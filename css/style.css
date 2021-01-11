@@ -21,7 +21,7 @@ h6 {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40;
+  color: #14234b;
 }
 
 h1 {
@@ -53,8 +53,8 @@ p.lead {
   display: inline-block;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
-  color: #fff !important;
+  background-color: #FFDB13;
+  color: #0053D6 !important;
   border-radius: 100%;
   text-align: center;
   font-size: 1.5rem;
@@ -67,8 +67,8 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #01DC75;
-  color: #fff !important;
+  background-color: #0053D6;
+  color: #FFDB13 !important;
 }
 
 .dev-icons {
@@ -86,7 +86,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color: #FFE6F0;
 }
 
 @media (min-width: 992px) {
@@ -109,7 +109,7 @@ p.lead {
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
-    opacity: 0.7;
+    opacity: 0.9;
   }
 
   #sideNav .navbar-brand .img-profile:hover{
@@ -166,20 +166,23 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #002333 !important;
+  background-color: #0053D6 !important;
 }
 
 .text-primary {
-  color: #01DC75 !important;
+  color: #E1144B !important;
 }
 
 a {
-  color: #002333;
+  color: #0053D6;
 }
 
 a:hover, a:focus, a:active, a:hover > h3, a:focus > h3, a:active > h3 {
-  color: #01DC75 !important;
+  color: #FFDB13 !important;
 }
+
+
+
 
 .portfolio-image {
   width: 100%;
