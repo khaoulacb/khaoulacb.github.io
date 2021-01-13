@@ -2,7 +2,8 @@
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
-  color: #868e96;
+  color: #737373;
+  background: #fff
 }
 
 @media (min-width: 992px) {
@@ -19,9 +20,9 @@ h4,
 h5,
 h6 {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
-  color: #14234b;
+  color: #262626;
 }
 
 h1 {
@@ -45,7 +46,7 @@ p.lead {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 1.5rem;
 }
 
@@ -53,8 +54,8 @@ p.lead {
   display: inline-block;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #FFDB13;
-  color: #0053D6 !important;
+  background-color: #fff;
+  color: #737373 !important;
   border-radius: 100%;
   text-align: center;
   font-size: 1.5rem;
@@ -67,8 +68,8 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #0053D6;
-  color: #FFDB13 !important;
+  background-color: #147CA6;
+  color: #fff !important;
 }
 
 .dev-icons {
@@ -76,7 +77,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #4CB963;
+  color: #147CA6;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -86,7 +87,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #FFE6F0;
+  outline-color: #A6A6A6;
 }
 
 @media (min-width: 992px) {
@@ -109,14 +110,14 @@ p.lead {
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
-    opacity: 0.9;
+    opacity: 1;
   }
 
   #sideNav .navbar-brand .img-profile:hover{
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
-    opacity: 1;
+    opacity: 0.9;
   }
 
 
@@ -166,19 +167,19 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #0053D6 !important;
+  background-color: #262626 !important;
 }
 
 .text-primary {
-  color: #E1144B !important;
+  color: #147CA6 !important;
 }
 
 a {
-  color: #0053D6;
+  color: #685F5E;
 }
 
 a:hover, a:focus, a:active, a:hover > h3, a:focus > h3, a:active > h3 {
-  color: #FFDB13 !important;
+  color: #147CA6 !important;
 }
 
 
