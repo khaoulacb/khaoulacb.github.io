@@ -167,7 +167,8 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #262626 !important;
+  background-image: url("../img/background.jpg") !important;
+  background-size: cover  ;
 }
 
 .text-primary {
